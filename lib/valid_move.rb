@@ -1,7 +1,7 @@
 board = [" "," "," "," "," "," "," "," "," "]
 
-def valid_move?
-  if position_taken?
+def valid_move?(board, index)
+  if position_taken?(board, index)
     return false 
   else 
     return true 
