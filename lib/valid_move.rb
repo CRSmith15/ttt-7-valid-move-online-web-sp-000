@@ -5,7 +5,7 @@ def valid_move?(board, index)
   if position_taken?(board, index) || index.between?(1, 9)
     spot != true
   else 
-    spot != false
+    spot = false
   end
   spot
 
