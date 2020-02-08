@@ -14,7 +14,9 @@ def position_taken?(board, x)
   if (board[x] ==  " " || board[x] == "" || board[x] == nil)
      taken = false
   else if (board[x]== "X" || board[x] == "O")
+    
      taken = true
+   end
   end
   taken
 end
