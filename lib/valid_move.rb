@@ -3,7 +3,7 @@ board = [" "," "," "," "," "," "," "," "," "]
 def valid_move?(board, index)
   spot = nil
   if position_taken?(board, index) && !(index.between?(1, 9))
-    spot = false
+    spot = true
   else 
     spot = false
   end
