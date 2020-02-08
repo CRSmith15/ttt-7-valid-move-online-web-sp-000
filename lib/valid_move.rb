@@ -13,7 +13,7 @@ def position_taken?(board, x)
   taken = nil
   if (board[x] ==  " " || board[x] == "" || board[x] == nil)
      taken = false
-  else if x.between?(0)
+  else if x.between?(0, 8)
     
      taken = true
    end
